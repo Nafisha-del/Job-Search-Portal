@@ -1,0 +1,37 @@
+.card{
+	background-color: white;
+	height: 400px;
+	width: 600px;
+	padding: 10px;
+	margin: auto;
+	border: 5px solid black;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+	background-image: url('../res/background.jpg');
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+form{
+	padding-left:50px;
+	text-align: justify;
+}
+
+table{
+	padding-left: 50px;
+}
+
+td{
+	text-align: justify;
+}

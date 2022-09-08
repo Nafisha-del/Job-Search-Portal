@@ -1,0 +1,41 @@
+﻿.card{
+	background-color: white;
+	height: 1750px;
+	width: 850px;
+	padding: 10px;
+	margin: auto;
+	border: 5px solid black;
+}
+
+body{
+	background-image: url('../res/background.jpg');
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+form{
+	padding-left:50px;
+	text-align: justify;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 1.875em;
+}
+
+input{
+	height: 30px;
+	width: 450px;
+}
+
+table{
+	padding-left: 50px;
+}
+
+td{
+	text-align: justify;
+}
