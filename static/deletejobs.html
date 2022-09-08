@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Delete Jobs</title>
+    <link rel="stylesheet" href="../stylesheets/login.css"/>
+</head>
+<body>
+     <div class="card">
+     <h1>CSE479: Job Portal</h1>
+     <h2>Delete Jobs<h2>
+     <table>
+     <form method="POST" action='../php/deletejobs.php'>
+          <tr>
+              <td>Job ID:</td>
+              <td><input type="text" name="jobcode" placeholder="Enter Unique Job ID" /></td>
+          </tr>
+          <tr>
+              <td>Username:</td>
+              <td><input type="text" name="username" placeholder="Enter Username" /></td>
+          </tr>
+          <tr>
+              <td>User Password:</td>
+              <td><input type="password" name="password" placeholder="Enter Password" /></td>
+          </tr>
+          <tr>
+              <td>Account Type:</td>
+              <td><input type="radio" name="account" value = "employer"/>employer <br/>
+                  <input type="radio" name="account" value = "admin"/>admin </td>
+          </tr>
+          <tr>
+              <td><input type="submit" name="submit"/></td>
+          </tr>
+     </form>
+     <table>
+     </div>
+</body>
+</html>

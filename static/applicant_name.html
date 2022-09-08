@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Applicant Name</title>
+    <link rel="stylesheet" href="../stylesheets/login.css"/>
+</head>
+<body>
+     <div class="card">
+     <h1>CSE479: Job Portal</h1>
+     <h2>Enter Applicant Name<h2>
+     <table>
+     <form method="POST" action='../php/resume.php'>
+          <tr>
+              <td>Job ID:</td>
+              <td><input type="text" name="jobcode" placeholder="Enter the Job ID" /></td>
+          </tr>
+          <tr>
+              <td>Applicant Name:</td>
+              <td><input type="text" name="applicant_name" placeholder="Enter name of Applicant" /></td>
+          </tr>
+          <tr>
+              <td><input type="submit" name="submit"/></td>
+          </tr>
+     </form>
+     <table>
+     </div>
+</body>
+</html>

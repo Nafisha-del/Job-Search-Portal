@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="../stylesheets/apply.css"/>
+</head>
+<body>
+      <div class='card'>
+      <h1>Job Application</h1>
+      <h2>Fill up the necessary fields</h2>
+      <form method="POST" enctype="multipart/form-data" action='../php/apply.php'>
+      Upload Resume:
+      <br/><br/>
+      Applicant Name:
+      <input name='applicant_name' type='text' placeholder='Enter your name' required='required'/><br/><br/>
+      <div class="mb-3">
+      <label for="formFile" class="form-label">CV (16Mbytes)</label>
+      <input name='cv' class="form-control" type="file" id="cv" required='required'>
+      </div>
+      <br/>
+      About Me:
+      <textarea type='text' name='about' placeholder='Enter your information'
+                rows='10' columns='50'></textarea></br><br/>
+      Job ID:
+      <input name='jobcode' type='text' placeholder='Enter unique Job ID' required='required'/><br/><br/>
+      <input name='reset' type='reset'/><br/>
+      <input name='submit' type='submit'/>
+      </form>
+      </div>
+</body>
+</html>

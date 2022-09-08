@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../stylesheets/signup.css"/>
+</head>
+<body>
+     <div class="card">
+     <h1>CSE479: Job Portal</h1>
+     <h2>Sign Up<h2>
+     <table>
+     <form method="POST" action="../php/signup.php">
+          <tr>
+              <td>Username:</td>
+              <td><input type="text" name="username" placeholder="Enter Username" /></td>
+          </tr>
+          <tr>
+              <td>Email:</td>
+              <td><input type="email" name="email" placeholder="Enter Email ID" /></td>
+          </tr>
+          <tr>
+              <td>Password:</td>
+              <td><input id="pw" type="password" name="password" placeholder="Enter Password" /></td>
+          </tr>
+          <tr>
+              <td>Confirm Password:</td>
+              <td><input id="conpw" type="password" name="con_password" placeholder="Confirm Password" /></td>
+          </tr>
+          <tr>
+              <td>Account Type:</td>
+              <td><input type="radio" name="account" value = "employee"/>employee <br/>
+                  <input type="radio" name="account" value = "employer"/>employer <br/>
+                  <input type="radio" name="account" value = "admin"/>admin </td>
+          </tr>
+          <tr>
+              <td><input type="reset" name="reset"/>
+                  <input type="submit" name="submit" onclick="check_pass()"/></td>
+          </tr>
+     </form>
+     <table>
+     </div>
+     <script>
+     function check_pass() {
+     if (document.getElementById('pw').value == document.getElementById('conpw').value) {
+        alert("Passwords match");
+     } else {
+        alert("Passwords do not match");;
+     }
+     }
+     </script>
+</body>
+</html>

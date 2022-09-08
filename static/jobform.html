@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Job Posting</title>
+    <link rel="stylesheet" href="../stylesheets/jobform.css"/>
+</head>
+<body>
+      <div class='card'>
+         <h1>Job Posting</h1>
+         <h2>Fill up the necessary job position information</h2>
+         <form method="POST" action = "../php/jobform.php">
+         Position:
+         <input name='position' type='text' placeholder='Enter job position title' required='required'/> <br/><br/>
+         Company:
+         <input name='company' type='text' placeholder='Enter Company Name' required='required'/> <br/><br/>
+         Location:
+         <input name='location' type='text' placeholder='Enter Location' required='required'/> <br/><br/>
+         Job Type:</br>
+         <input type="radio" name="job_type" value = "fulltime"/>Full time <br/>
+         <input type="radio" name="job_type" value = "parttime"/>Part time <br/>
+         <input type="radio" name="job_type" value = "contractjob"/>Contract Job <br/>
+         <input type="radio" name="job_type" value = "tempjob"/>Temporary Job <br/>
+         <input type="radio" name="job_type" value = "remote"/>Remote</br><br/>
+         Job Description:
+         <textarea name='description' placeholder='Enter Job Description (Company information, job purpose, etc.)'
+                rows='10' columns='50'></textarea></br><br/>
+         Responsibilites:
+         <textarea name='responsibilites' placeholder='Enter Job duties and responsibilites 
+                (working hours, regular work, expectations, etc. )'
+                rows='10' columns='50'></textarea></br><br/>
+         Qualifications:
+         <textarea name='qualifications' placeholder='Enter required job qualifications 
+                (education, degree, experience, skills, etc. )'
+                rows='10' columns='50'></textarea></br><br/>
+         Pay Range:
+         <input name='pay' type='text' placeholder='Enter Pay range'/> <br/><br/>
+         URL:
+         <input name='url' type='text' placeholder='Enter Link Address'/><br/><br/>
+         Submission Last Date:
+         <input name='dates' type='date'/><br/><br/>
+         Contact ID:
+         <input name='email' type='email' placeholder='Enter email id'/><br/><br/>
+         Job ID:
+         <input name='jobcode' type='text' placeholder='Enter unique Job ID' required='required'/><br/><br/>
+         Job Posted By:
+         <input name='username' type='text' placeholder='Enter your username' required='required'/><br/><br/>
+         <input name='reset' type='reset'/><br/>
+         <input name='submit' type='submit'/>
+         </form>
+      </div>
+</body>
+</html>
