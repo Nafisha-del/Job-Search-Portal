@@ -53,7 +53,7 @@ If you have any feedback, please reach out to us at nafishamoin7@gmail.com
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nafisha-moin/)
 
 ## Related
-Here are some related projects: <br/>
+Here are some of my other projects: <br/>
 1. [Sentiment Analysis of Twitter Tweets](https://github.com/Nafisha-del/Sentiment-Analysis-of-Twitter-Tweets-using-Machine-Learning-algorithms) <br/>
 2. [Heart Disease Prediction](https://github.com/Nafisha-del/Heart-Disease-Prediction) <br/>
 3. [Unit Converter Using C program](https://github.com/Nafisha-del/Unit-Converter-using-C-program) <br/>
