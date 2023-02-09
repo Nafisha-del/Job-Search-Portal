@@ -33,7 +33,7 @@
                     <a class="nav-link" href="jobform.html">Post Jobs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="updatejobs.html">Update Jobs</a>
+                    <a class="nav-link" href="updatejob.html">Update Jobs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="deletejobs.html">Delete Jobs</a>
